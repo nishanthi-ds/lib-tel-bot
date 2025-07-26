@@ -14,7 +14,7 @@ from telegram.ext import (
 )
 import clean_text
 import keep_alive
-
+keep_alive()
 # Load environment variables
 load_dotenv(dotenv_path=".env")
 BOT_TOKEN = os.getenv("OLD_MOVIES_BOT_TOKEN")
